@@ -1,0 +1,876 @@
+/target:library
+/out:Temp/Assembly-CSharp.dll
+/nowarn:0169
+/nowarn:0649
+/refout:Temp/Assembly-CSharp.dll.ref
+/deterministic
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:Assets/Plugin/Http/lib/Ionic.Zlib.dll
+/reference:Assets/Plugins/DynamicWaterNativeWrapper.dll
+/reference:"Assets/VacuumShaders/Curved World/Scripts/VacuumShaders.CurvedWorld.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2017.1.0f3/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/reference:H:/LUDSPROJETOPRINCIPAL/ludsgame_project/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll
+/reference:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+/reference:Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/define:CROSS_PLATFORM_INPUT
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MOVIES
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VIRTUALTEXTURING
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_WWW
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_4_6
+/define:PLATFORM_ARCH_64
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_SUPPORTS_MONO
+/define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+/define:RENDER_SOFTWARE_CURSOR
+/define:SCENE_TEMPLATE_MODULE
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_16
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_TEAM_LICENSE
+/define:USE_SEARCH_ENGINE_API
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_AAA_SuperComputer.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_AAA_SuperHexagon.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_AAA_WaterDrop.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Alien_Vision.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Antialiasing_FXAA.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Atmosphere_Snow_8bits.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Blend.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_BlueScreen.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Color.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_ColorBurn.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_ColorDodge.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Darken.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_DarkerColor.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Difference.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Divide.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Exclusion.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_GreenScreen.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_HardLight.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_HardMix.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Hue.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Lighten.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LighterColor.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LinearBurn.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LinearDodge.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_LinearLight.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Luminosity.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Multiply.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Overlay.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_PhotoshopFilters.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_PinLight.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Saturation.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Screen.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_SoftLight.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_SplitScreen.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_Subtract.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blend2Camera_VividLight.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Bloom.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_BlurHole.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Blurry.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_DitherOffset.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Dithering2x2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Focus.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_GaussianBlur.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Movie.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Noise.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Radial.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Radial_Fast.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Regular.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Blur_Steam.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Color_BrightContrastSaturation.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Color_Chromatic_Aberration.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Color_Contrast.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Color_GrayScale.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Color_Invert.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Color_Noise.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Color_RGB.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Color_Sepia.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Color_Switching.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Adjust_ColorRGB.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Adjust_FullColors.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Adjust_PreFilters.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Brightness.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Colors_DarkColor.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Colors_HSV.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Colors_HUE_Rotate.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Colors_NewPosterize.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Colors_Threshold.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_BigFace.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_BlackHole.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Dissipation.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Dream.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Dream2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_FishEye.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Flag.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Flush.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Half_Sphere.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Heat.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Lens.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Noise.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_ShockWave.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Water_Drop.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Distortion_Wave_Horizontal.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_CellShading.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_CellShading2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Comics.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Crosshatch.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_EnhancedComics.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Halftone.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Laplacian.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga3.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga4.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga5.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Manga_Color.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_NewCellShading.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Drawing_Toon.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_EXTRA_SHOWFPS.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Edge_BlackLine.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Edge_filter.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Golden.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Neon.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Sigmoid.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Edge_Sobel.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_EyesVision_1.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_EyesVision_2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_8bits.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_8bits_gb.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Ascii.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Dot_Circle.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Drunk.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Drunk2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_EarthQuake.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Funk.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Glitch1.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Glitch2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Glitch3.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Grid.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Hexagon.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Hexagon_Black.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Hypno.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_InverChromiLum.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Mirror.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Plasma.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Psycho.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Screens.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_Spot.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_ZebraColor.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_FX_superDot.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Film_ColorPerfection.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Film_Grain.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Ansi.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Desert.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_ElectricGradient.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_FireGradient.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Hue.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_NeonGradient.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Rainbow.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Stripe.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Tech.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Gradients_Therma.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Light_Rainbow.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Light_Rainbow2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Light_Water.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Light_Water2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_NightVisionFX.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_NightVision_4.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision1.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision3.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_NightVision5.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Oculus_ThermaVision.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_OldFilm_Cutting1.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_OldFilm_Cutting2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Pixel_Pixelisation.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Pixelisation_Dot.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Pixelisation_OilPaint.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Pixelisation_OilPaintHQ.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Sharpen_Sharpen.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Special_Bubble.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_50.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_80.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_ARCADE.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_ARCADE_2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Artefact.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_BrokenGlass.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Chromatical.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Chromatical2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_CompressionFX.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Distorted.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_LED.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Noise.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Old.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Old_Movie.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Old_Movie_2.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_PlanetMars.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Posterize.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Rgb.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Tiles.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_VHS.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_VHS_Rewind.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Vcr.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Video3D.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Videoflip.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_Vintage.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenCircle.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenHV.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenHorizontal.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_TV_WideScreenVertical.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_VHS_Tracking.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Blood.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Crystal.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Plasma.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Psycho.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Tunnel.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Warp.cs"
+"Assets\Camera Filter Pack\Scripts\CameraFilterPack_Vision_Warp2.cs"
+Assets\Heureka\HeurekaShared\Extensions.cs
+Assets\Heureka\HeurekaShared\Singleton.cs
+"Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX2_Demo.cs"
+"Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX3_AutoStopLoopedEffect.cs"
+"Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo.cs"
+"Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo_Translate.cs"
+"Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs"
+"Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs"
+"Assets\JMO Assets\Cartoon FX\Scripts\CFX2_AutoRotate.cs"
+"Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs"
+"Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs"
+"Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs"
+"Assets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs"
+"Assets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs"
+Assets\JSON\JSONObject.cs
+Assets\JSON\JSONTemplates.cs
+Assets\JSON\VectorTemplates.cs
+Assets\Kinect\DepthColliderDemo\Scripts\DepthImageViewer.cs
+Assets\Kinect\DepthColliderDemo\Scripts\EggMover.cs
+Assets\Kinect\DepthColliderDemo\Scripts\EggSpawner.cs
+Assets\Kinect\GesturesDemo\Scripts\GestureListener.cs
+Assets\Kinect\GesturesDemo\Scripts\PresentationScript.cs
+Assets\Kinect\KinectScripts\AvatarController.cs
+Assets\Kinect\KinectScripts\AvatarControllerClassic.cs
+Assets\Kinect\KinectScripts\Cubeman\CubemanController.cs
+Assets\Kinect\KinectScripts\Filters\BoneOrientationsConstraint.cs
+Assets\Kinect\KinectScripts\Filters\BoneOrientationsFilter.cs
+Assets\Kinect\KinectScripts\Filters\ClippedLegsFilter.cs
+Assets\Kinect\KinectScripts\Filters\JointPositionsFilter.cs
+Assets\Kinect\KinectScripts\Filters\KinectHelper.cs
+Assets\Kinect\KinectScripts\Filters\SelfIntersectionConstraint.cs
+Assets\Kinect\KinectScripts\Filters\TimedLerp.cs
+Assets\Kinect\KinectScripts\Filters\TrackingStateFilter.cs
+Assets\Kinect\KinectScripts\KinectGestures.cs
+Assets\Kinect\KinectScripts\KinectManager.cs
+Assets\Kinect\KinectScripts\KinectWrapper.cs
+Assets\Kinect\KinectScripts\Samples\FollowUserRotation.cs
+Assets\Kinect\KinectScripts\Samples\GetJointPositionDemo.cs
+Assets\Kinect\KinectScripts\Samples\LoadMainLevel.cs
+Assets\Kinect\KinectScripts\Samples\SetSceneAvatars.cs
+Assets\Kinect\KinectScripts\Samples\SimpleGestureListener.cs
+Assets\Kinect\OverlayDemo\Scripts\KinectOverlayer.cs
+Assets\KinectMSSDK_EXTRAS\FacetrackingDemo\Scripts\ModelFaceController.cs
+Assets\KinectMSSDK_EXTRAS\InteractionDemo\Scripts\GrabDropScript.cs
+Assets\KinectMSSDK_EXTRAS\InteractionDemo\Scripts\GuiWindowScript.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\BackgroundManager.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\BackgroundWrapper.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\FacetrackingManager.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\FacetrackingWrapper.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\InteractionManager.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\InteractionWrapper.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\Samples\MouseControl.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\SpeechErrorHandler.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\SpeechManager.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\SpeechWrapper.cs
+Assets\KinectMSSDK_EXTRAS\KinectScripts\WrapperTools.cs
+Assets\KinectMSSDK_EXTRAS\SpeechRecognitionDemo\Scripts\BotControlScript.cs
+Assets\KinectMSSDK_EXTRAS\SpeechRecognitionDemo\Scripts\GameControlScript.cs
+Assets\KinectMSSDK_EXTRAS\SpeechRecognitionDemo\Scripts\ThirdPersonCamera.cs
+Assets\MobileInput\Scripts\CrossPlatformInputManager.cs
+Assets\MobileInput\Scripts\Joystick.cs
+Assets\MobileInput\Scripts\MobileControlRig.cs
+Assets\MobileInput\Scripts\PlatformSpecific\MobileInput.cs
+Assets\MobileInput\Scripts\PlatformSpecific\StandaloneInput.cs
+Assets\MobileInput\Scripts\VirtualInput.cs
+"Assets\Models\Comprados_Baixados\Cartoon Outdoor\DemoScene\DemoScripts\FPSDisplay.cs"
+"Assets\Models\Comprados_Baixados\Cartoon Outdoor\DemoScene\DemoScripts\SimpleCameraScrolling.cs"
+"Assets\Models\Comprados_Baixados\Fantasy Skybox FREE\Scripts\FSPlayer.cs"
+"Assets\Models\Comprados_Baixados\Free_Rocks\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs"
+Assets\Plugin\FourierCPU.cs
+Assets\Plugin\Http\lib\JSON.cs
+Assets\Plugin\Http\src\CookieJar.cs
+Assets\Plugin\Http\src\DiskCache.cs
+Assets\Plugin\Http\src\Request.cs
+Assets\Plugin\Http\src\Response.cs
+Assets\Plugin\Http\src\ResponseCallbackDispatcher.cs
+Assets\Plugin\WaveSpectriumCPU.cs
+Assets\Resources\CameraMovement\Scripts\Controller.cs
+Assets\Resources\Scripts\Actor.cs
+Assets\Resources\Scripts\ActorContainer.cs
+Assets\Resources\Scripts\GameController.cs
+Assets\Resources\Scripts\SaveData.cs
+Assets\Resources\Share\TutorialTxt\Comand.cs
+Assets\Resources\Share\TutorialTxt\ComandLoader.cs
+Assets\Resources\Share\TutorialTxt\ComandsContainer.cs
+Assets\Scripts\Arrow_Control.cs
+"Assets\Scripts\Bridge Game\Bridge\BridgeControl.cs"
+"Assets\Scripts\Bridge Game\Bridge\BridgeGenerator.cs"
+"Assets\Scripts\Bridge Game\Bridge\BridgeManager.cs"
+"Assets\Scripts\Bridge Game\Bridge\Counter.cs"
+"Assets\Scripts\Bridge Game\GameUtilities\CameraIntroControl.cs"
+"Assets\Scripts\Bridge Game\GameUtilities\FinalPosition.cs"
+"Assets\Scripts\Bridge Game\GameUtilities\GameManager.cs"
+"Assets\Scripts\Bridge Game\GameUtilities\LevelSelector.cs"
+"Assets\Scripts\Bridge Game\GameUtilities\LoadMainLevel.cs"
+"Assets\Scripts\Bridge Game\GameUtilities\PauseManager.cs"
+"Assets\Scripts\Bridge Game\GameUtilities\ScoreManagerBridge.cs"
+"Assets\Scripts\Bridge Game\KinectControl\PlayerControlKinect.cs"
+"Assets\Scripts\Bridge Game\Ocean\AddBuoyancy.cs"
+"Assets\Scripts\Bridge Game\Ocean\Ocean.cs"
+"Assets\Scripts\Bridge Game\Player\PiranhaControl.cs"
+"Assets\Scripts\Bridge Game\Player\PlayerControl.cs"
+"Assets\Scripts\Bridge Game\UI\GameOverBridge.cs"
+"Assets\Scripts\Bridge Game\UI\ScoreNotification.cs"
+Assets\Scripts\Bullseye\Aim_controller.cs
+Assets\Scripts\Bullseye\AppleBullet.cs
+Assets\Scripts\Bullseye\ApplesPool.cs
+Assets\Scripts\Bullseye\PlayerThrow.cs
+Assets\Scripts\Bullseye\ScreenManager.cs
+Assets\Scripts\Bullseye\Target.cs
+Assets\Scripts\Bullseye\ThrowManager.cs
+Assets\Scripts\Bullseye\TimerManager.cs
+Assets\Scripts\CameraRunnerController.cs
+Assets\Scripts\CountToStart.cs
+Assets\Scripts\FormatConfig.cs
+Assets\Scripts\GameOverScreen\Button.cs
+Assets\Scripts\GameOverScreen\CallStars.cs
+Assets\Scripts\GameOverScreen\MenuController.cs
+Assets\Scripts\GameOver_Btn_Controller.cs
+Assets\Scripts\Goalkeeper\AnimationControllerGoalkeeper.cs
+Assets\Scripts\Goalkeeper\AnimationControllerKicker.cs
+Assets\Scripts\Goalkeeper\BallControl.cs
+Assets\Scripts\Goalkeeper\BarController.cs
+Assets\Scripts\Goalkeeper\CameraControl.cs
+Assets\Scripts\Goalkeeper\GKLimit.cs
+Assets\Scripts\Goalkeeper\Managers\GoalkeeperManager.cs
+Assets\Scripts\Goalkeeper\PigShoot.cs
+Assets\Scripts\Goalkeeper\ScoreManager_GK.cs
+Assets\Scripts\Goalkeeper\ShootDirection.cs
+Assets\Scripts\HTTP\ComputerOnList.cs
+Assets\Scripts\HTTP\HttpController.cs
+Assets\Scripts\HTTP\InsertMotionTest.cs
+Assets\Scripts\HTTP\InterfaceController.cs
+Assets\Scripts\HTTP\PhysioOnList.cs
+Assets\Scripts\HTTP\Tutorial.cs
+Assets\Scripts\LakeAdventure\AnimatorController\BatataFishAnimatorController.cs
+Assets\Scripts\LakeAdventure\Boat\BoatControl.cs
+Assets\Scripts\LakeAdventure\Boy\Batata_Fishing_Control.cs
+Assets\Scripts\LakeAdventure\Camera\CameraMovementControlFish.cs
+Assets\Scripts\LakeAdventure\Camera\InitialAnimFix.cs
+Assets\Scripts\LakeAdventure\Fish\Fish.cs
+Assets\Scripts\LakeAdventure\Fish\FishMovementControl.cs
+"Assets\Scripts\LakeAdventure\Hand Reference\HandReferenceFish.cs"
+Assets\Scripts\LakeAdventure\Manager\FishingManager.cs
+"Assets\Scripts\LakeAdventure\Map Control\FishingSpot.cs"
+Assets\Scripts\LakeAdventure\Rope\RopeManager.cs
+Assets\Scripts\LakeAdventure\UI\BucketBaitsControl.cs
+Assets\Scripts\LakeAdventure\UI\GotFishScreenControl.cs
+Assets\Scripts\LakeAdventure\UI\PullBaitControl.cs
+Assets\Scripts\LakeAdventure\UI\UIHandler.cs
+Assets\Scripts\LetterSpacing.cs
+Assets\Scripts\LudsGame\AngleTest.cs
+Assets\Scripts\LudsGame\Animations\AnimationCreation.cs
+Assets\Scripts\LudsGame\Animations\AnimationInterfaceController.cs
+Assets\Scripts\LudsGame\GameSelection.cs
+"Assets\Scripts\LudsGame\Mini Game\Box.cs"
+"Assets\Scripts\LudsGame\Mini Game\CarouselBoxController.cs"
+"Assets\Scripts\LudsGame\Mini Game\Category.cs"
+"Assets\Scripts\LudsGame\Mini Game\CategoryBoxType.cs"
+"Assets\Scripts\LudsGame\Mini Game\CreateMiniGamesIcons.cs"
+"Assets\Scripts\LudsGame\Mini Game\Direction.cs"
+"Assets\Scripts\LudsGame\Mini Game\GameBoxType.cs"
+"Assets\Scripts\LudsGame\Mini Game\IBox.cs"
+"Assets\Scripts\LudsGame\Mini Game\MenuButton.cs"
+"Assets\Scripts\LudsGame\Mini Game\MenuButtonType.cs"
+"Assets\Scripts\LudsGame\Mini Game\MenuController.cs"
+"Assets\Scripts\LudsGame\Mini Game\MiniGame.cs"
+"Assets\Scripts\LudsGame\Mini Game\MiniGameBox.cs"
+"Assets\Scripts\LudsGame\Mini Game\MiniGameIconBtn.cs"
+"Assets\Scripts\LudsGame\Mini Game\MiniGameScreenController.cs"
+"Assets\Scripts\LudsGame\Mini Game\MiniGameScreenKinectController.cs"
+"Assets\Scripts\LudsGame\Mini Game\MiniGameTransition.cs"
+"Assets\Scripts\LudsGame\Mini Game\MiniGamesController.cs"
+Assets\Scripts\LudsGame\SplashScreen.cs
+Assets\Scripts\LudsGame\UI\AnimationWindow.cs
+Assets\Scripts\MovPositionController.cs
+Assets\Scripts\Runner\Animations\AppleAnimation.cs
+Assets\Scripts\Runner\Animations\BarnBalloonsShowHide.cs
+Assets\Scripts\Runner\Animations\MouseOnClickWall.cs
+Assets\Scripts\Runner\Animations\PlayIddle.cs
+Assets\Scripts\Runner\Animations\SplashAnimationManager.cs
+Assets\Scripts\Runner\Aura\AuraController.cs
+Assets\Scripts\Runner\Camera\BarnCamera.cs
+Assets\Scripts\Runner\Item\RotateObjects.cs
+"Assets\Scripts\Runner\Kinect Related\BarnKinectController.cs"
+"Assets\Scripts\Runner\Kinect Related\DistanceCalibrator.cs"
+"Assets\Scripts\Runner\Kinect Related\HandBarnControl.cs"
+"Assets\Scripts\Runner\Kinect Related\LoadingSelection.cs"
+"Assets\Scripts\Runner\Kinect Related\MoveWithKinect.cs"
+"Assets\Scripts\Runner\Kinect Related\PlayerHandController.cs"
+"Assets\Scripts\Runner\Kinect Related\SelectionController.cs"
+Assets\Scripts\Runner\Level\LevelConfiguration.cs
+Assets\Scripts\Runner\Level\MapExample.cs
+Assets\Scripts\Runner\Level\PlatformSO.cs
+Assets\Scripts\Runner\Managers\MenuManager.cs
+Assets\Scripts\Runner\Managers\PigRunnerManager.cs
+Assets\Scripts\Runner\Managers\PigTutorialManager.cs
+Assets\Scripts\Runner\Managers\PowerUpsDisplayManager.cs
+Assets\Scripts\Runner\Map\CountMetersRan.cs
+Assets\Scripts\Runner\Map\FloorMovementControl.cs
+Assets\Scripts\Runner\Miscellaneous\CallScene.cs
+Assets\Scripts\Runner\Miscellaneous\CanvasScript.cs
+Assets\Scripts\Runner\Miscellaneous\FillGameSelection.cs
+Assets\Scripts\Runner\Miscellaneous\GameName.cs
+Assets\Scripts\Runner\Miscellaneous\GameOverScreen.cs
+Assets\Scripts\Runner\Miscellaneous\MinGameScreen.cs
+Assets\Scripts\Runner\Miscellaneous\PlayScreenScript.cs
+Assets\Scripts\Runner\Miscellaneous\Score.cs
+Assets\Scripts\Runner\Miscellaneous\WalkManager.cs
+"Assets\Scripts\Runner\Player Related\MagneticController.cs"
+"Assets\Scripts\Runner\Player Related\PlayerJumpSlideControl.cs"
+"Assets\Scripts\Runner\Player Related\PlayerPrefsManager.cs"
+"Assets\Scripts\Runner\Player Related\PlayerTrailMovement.cs"
+Assets\Scripts\Runner\Pool\Item.cs
+Assets\Scripts\Runner\Pool\ItemsPool.cs
+"Assets\Scripts\Runner\Power Ups\PowerUpManager.cs"
+Assets\Scripts\Runner\Sounds\BridgeSoundManager.cs
+Assets\Scripts\Runner\Sounds\FishingSoundManager.cs
+Assets\Scripts\Runner\Sounds\GoalKeeperSoundManager.cs
+Assets\Scripts\Runner\Sounds\PigRunnerSoundManager.cs
+Assets\Scripts\Runner\Sounds\SoundManager.cs
+Assets\Scripts\Runner\Sounds\ThrowSoundManager.cs
+"Assets\Scripts\Runner\Start Screen\ButtonSoundConfigManager.cs"
+"Assets\Scripts\Runner\Start Screen\PlayIddleStartScreen.cs"
+Assets\Scripts\Runner\Tutorial\CheckStops.cs
+Assets\Scripts\Runner\Tutorial\GestureSprites.cs
+Assets\Scripts\Runner\Tutorial\MovePigTutorial.cs
+Assets\Scripts\Runner\Tutorial\MoveTutorialMaps.cs
+Assets\Scripts\Sandbox\Database\LoadGamePreferences.cs
+Assets\Scripts\Sandbox\GameUtils\GameManager.cs
+Assets\Scripts\Sandbox\GameUtils\MatrixManager.cs
+Assets\Scripts\Sandbox\GameUtils\PauseManager.cs
+Assets\Scripts\Sandbox\GameUtils\Singleton.cs
+Assets\Scripts\Sandbox\GameUtils\SoundManager_Sandbox.cs
+Assets\Scripts\Sandbox\GameUtils\TimeManagerSandbox.cs
+Assets\Scripts\Sandbox\KinectControl\DistanceCalibrator_Sandbox.cs
+Assets\Scripts\Sandbox\Level\ItensManager.cs
+Assets\Scripts\Sandbox\Level\LevelCreator.cs
+Assets\Scripts\Sandbox\Level\LevelManager.cs
+Assets\Scripts\Sandbox\PlayerControl\CheckClosestItem.cs
+Assets\Scripts\Sandbox\PlayerControl\HandController.cs
+Assets\Scripts\Sandbox\PlayerControl\Player.cs
+Assets\Scripts\Sandbox\PlayerControl\PlayerData.cs
+Assets\Scripts\Sandbox\PlayerControl\PlayerGameRecord.cs
+Assets\Scripts\Sandbox\PlayerControl\ScoreManager.cs
+Assets\Scripts\Sandbox\UI\DetectorAnimationController.cs
+Assets\Scripts\Sandbox\UI\MenuManager.cs
+Assets\Scripts\Sandbox\UI\ObjectLabel.cs
+Assets\Scripts\Sandbox\UI\PresentationScreen.cs
+Assets\Scripts\Sandbox\UI\RegisterButtons.cs
+Assets\Scripts\Sandbox\UI\ScrollManager.cs
+Assets\Scripts\Sandbox\UI\SelectorControl.cs
+Assets\Scripts\Sandbox\UI\TimeBar.cs
+Assets\Scripts\Sandbox\UI\_bkp_DetectorAnimationController.cs
+Assets\Scripts\Share\Banner_Storytelling.cs
+Assets\Scripts\Share\Borg_Presentation.cs
+Assets\Scripts\Share\Controllers\CanvasController.cs
+Assets\Scripts\Share\Controllers\GUIController.cs
+Assets\Scripts\Share\Controllers\GameOverScreenController.cs
+Assets\Scripts\Share\Controllers\PigRunnerController.cs
+Assets\Scripts\Share\Controllers\ScoreItem.cs
+Assets\Scripts\Share\Database\Frame.cs
+Assets\Scripts\Share\Database\Gesture.cs
+Assets\Scripts\Share\Database\GestureTimes.cs
+Assets\Scripts\Share\Database\JointPosition.cs
+Assets\Scripts\Share\DistanceCalibratorNew.cs
+Assets\Scripts\Share\Enums\Game.cs
+Assets\Scripts\Share\Enums\GroupTypes.cs
+Assets\Scripts\Share\Enums\LevelGroups.cs
+Assets\Scripts\Share\Enums\Movement.cs
+Assets\Scripts\Share\Enums\ScoreItemsType.cs
+Assets\Scripts\Share\EventSystem\CalibrateUserEvent.cs
+Assets\Scripts\Share\EventSystem\Events.cs
+Assets\Scripts\Share\EventSystem\EventsManager.cs
+Assets\Scripts\Share\EventSystem\GameOverEvents.cs
+Assets\Scripts\Share\EventSystem\GameStartClass.cs
+Assets\Scripts\Share\EventSystem\GestureEvents.cs
+Assets\Scripts\Share\EventSystem\GesturesManager.cs
+Assets\Scripts\Share\EventSystem\InstancesManager.cs
+Assets\Scripts\Share\EventSystem\PushGesture.cs
+Assets\Scripts\Share\EventSystem\SpeechEvents.cs
+Assets\Scripts\Share\Events\EventTest.cs
+Assets\Scripts\Share\Events\Events.cs
+Assets\Scripts\Share\Events\GestureEvents.cs
+Assets\Scripts\Share\GameOver_Presentation.cs
+Assets\Scripts\Share\Grandpa_Screen.cs
+Assets\Scripts\Share\Kinect\Record\SkeletonRecord.cs
+Assets\Scripts\Share\Kinect\Record\SkeletonRecorder.cs
+Assets\Scripts\Share\Kinect\Record\SkeletonReplay.cs
+Assets\Scripts\Share\KinectUtils\Animations\RecorderMovements.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\DepthWrapper.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\DeviceOrEmulator.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\DisplayColor.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\DisplayDepth.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\KinectEmulator.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\KinectInterop.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\KinectModelControllerV2.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\KinectPointController.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\KinectRecorder.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\KinectSensor.cs
+Assets\Scripts\Share\KinectUtils\AvatarController\SkeletonWrapper.cs
+Assets\Scripts\Share\KinectUtils\GenericKinectMethods.cs
+Assets\Scripts\Share\KinectUtils\GestureTimes.cs
+Assets\Scripts\Share\KinectUtils\HandCollider2D.cs
+Assets\Scripts\Share\KinectUtils\KinectGestures.cs
+Assets\Scripts\Share\KinectUtils\Record\SkeletonFrameEureka.cs
+Assets\Scripts\Share\KinectUtils\Record\SkeletonInclination.cs
+Assets\Scripts\Share\KinectUtils\Record\SkeletonPlayback.cs
+Assets\Scripts\Share\KinectUtils\Record\SkeletonRecorder.cs
+Assets\Scripts\Share\KinectUtils\UserMap.cs
+Assets\Scripts\Share\LoadingScreen.cs
+Assets\Scripts\Share\Managers\BorgManager.cs
+Assets\Scripts\Share\Managers\CountDownManager.cs
+Assets\Scripts\Share\Managers\GameManagerShare.cs
+Assets\Scripts\Share\Managers\LifesManager.cs
+Assets\Scripts\Share\Managers\PauseMenu.cs
+Assets\Scripts\Share\Managers\ScoreManager.cs
+Assets\Scripts\Share\Managers\TimeManager.cs
+Assets\Scripts\Share\OptionScreen.cs
+Assets\Scripts\Share\PasswordBtn.cs
+Assets\Scripts\Share\TutorialScreen.cs
+Assets\Scripts\Share\Utils\BlurOptimized.cs
+Assets\Scripts\Share\Utils\HandleUncaughtException.cs
+"Assets\Scripts\Share\Utils\Itween\iTweenEditor\Helper Classes\EventParamMappings.cs"
+"Assets\Scripts\Share\Utils\Itween\iTweenEditor\Helper Classes\Vector3OrTransform.cs"
+"Assets\Scripts\Share\Utils\Itween\iTweenEditor\Helper Classes\Vector3OrTransformArray.cs"
+Assets\Scripts\Share\Utils\Itween\iTweenEditor\iTweenEvent.cs
+Assets\Scripts\Share\Utils\Itween\iTweenEditor\iTweenPath.cs
+Assets\Scripts\Share\Utils\Itween\iTweenMultiPath\iTweenMultiPath.cs
+Assets\Scripts\Share\Utils\Itween\iTweenMultiPath\iTweenMultiPathEureka.cs
+Assets\Scripts\Share\Utils\ObjectLabel_Share.cs
+Assets\Scripts\Share\Utils\PostEffectsBase.cs
+Assets\Scripts\Starscreen_Characters.cs
+Assets\Scripts\StartScreen\StartScreenKinectManager.cs
+Assets\Scripts\StartScreen\StartScreenManager.cs
+Assets\Scripts\Sup\Camera\CameraZoomControl.cs
+Assets\Scripts\Sup\Controllers\Sup_Controller.cs
+Assets\Scripts\Sup\Managers\MiniMapManager.cs
+Assets\Scripts\Sup\Managers\SupManager.cs
+Assets\Scripts\Sup\Others\Buoyancy.cs
+Assets\Scripts\Sup\Others\HandleApples.cs
+Assets\Scripts\Sup\Test\CubeManLeftHandCollider.cs
+Assets\Scripts\Sup\Test\CubeManRightHandCollider.cs
+Assets\Scripts\Sup\Test\CubeManRowManager.cs
+Assets\Scripts\Sup\Test\HandleApplesBox.cs
+Assets\SupSoundManager.cs
+Assets\UserFeedbackManager.cs
+"Assets\VacuumShaders\Curved World\Assets\Water (Unity)\Scripts\Displace.cs"
+"Assets\VacuumShaders\Curved World\Assets\Water (Unity)\Scripts\GerstnerDisplace.cs"
+"Assets\VacuumShaders\Curved World\Assets\Water (Unity)\Scripts\MeshContainer.cs"
+"Assets\VacuumShaders\Curved World\Assets\Water (Unity)\Scripts\SpecularLighting.cs"
+"Assets\VacuumShaders\Curved World\Assets\Water (Unity)\Scripts\Water.cs"
+"Assets\VacuumShaders\Curved World\Assets\Water (Unity)\Scripts\WaterBase.cs"
+"Assets\VacuumShaders\Curved World\Assets\Water (Unity)\Scripts\WaterBasic.cs"
+"Assets\VacuumShaders\Curved World\Assets\Water (Unity)\Scripts\WaterTile.cs"
+Assets\image.cs
+Assets\materialTests.cs
